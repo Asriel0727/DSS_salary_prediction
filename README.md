@@ -1,2 +1,2 @@
-# DSS Salary Forecast Final Project
+# DSS Salary Prediction Final Project
 
