@@ -5,7 +5,7 @@ An interactive salary prediction platform based on a Random Forest Regression mo
 
 <div align="center">
 
-| [Traditional Chinese](README.md) | [English](README_en-us.md) | [Demo Video](https://youtu.be/UVHKSnWRwPY) | [PDF](決策支援系統_13.pdf) |
+| [繁體中文](README.md) | [English](README_en-us.md) | [Demo Video](https://youtu.be/UVHKSnWRwPY) | [PDF](決策支援系統_13.pdf) |
 
 </div>
 
