@@ -1,19 +1,85 @@
-# Team 10 Salary Prediction
 
-## Table of Contents
-- Prerequisites
-- Run Code
-- Demo Video
+# 📊 Team 10 薪資預測系統
 
-### Prerequisites
-The Python version need **>=3.9**.
-1. Open Terminal and `cd` to the folder.
-2. Use `pip install -r requirements.txt` to install all packages. 
+一個基於隨機森林迴歸模型的互動式薪資預測平台，幫助求職者評估職涯發展與薪資趨勢。
 
-### Run Code
-1. Open VSC
-2. Choose the environment you install the packages.
-3. Run the cell.
+<div align="center">
 
-### Demo Video
-- https://youtu.be/UVHKSnWRwPY
+| [繁體中文](README.md) | [English](README_en-us.md) |  [Demo Video](https://youtu.be/UVHKSnWRwPY) | [PDF](決策支援系統_13.pdf
+) |
+
+</div>
+
+---
+
+## 📚 目錄
+
+- 專案簡介  
+- 執行環境需求  
+- 執行方式  
+- 主要功能說明  
+- 系統架構與技術概覽  
+- 結果與預期效益  
+- 問題與未來改進方向  
+
+---
+
+## 🧠 專案簡介
+
+面對畢業與求職轉換期，薪資成為新鮮人與在職者最關注的議題之一。為了協助用戶根據公司、職務、工作條件等資訊預測薪資，本研究團隊使用 **Python 搭配隨機森林回歸模型** 建立預測系統，並透過 Tkinter 介面讓使用者可視化互動操作。
+
+資料來源為 Dcard 科技業職場調查，經過清洗與前處理後建構模型，針對預測變數（如加班頻率、月工時、爽度、工作量等）進行訓練與預測。
+
+---
+
+## 💻 執行環境需求
+
+- **Python 版本**：建議使用 Python 3.9 或以上  
+- **套件安裝**：
+  1. 開啟終端機，切換至專案資料夾  
+  2. 執行指令：`pip install -r requirements.txt` 安裝所需套件
+
+---
+
+## ▶️ 執行方式
+
+1. 使用 Visual Studio Code 開啟專案
+2. 選擇對應的 Python 環境（建議與 pip 安裝的環境一致）
+3. 執行 Jupyter Notebook 或主程式檔案，依照指示操作介面
+
+---
+
+## 🔧 主要功能說明
+
+- 使用者可輸入：
+  - 公司名稱與職務（下拉式選單）
+  - 現職與相關年資
+  - 每月工時與加班頻率
+  - 爽度（工作輕鬆程度）與工作量
+- 透過按鈕觸發模型預測，並即時在介面上回傳「預測薪資」
+- 所有輸入皆有合理範圍限制與錯誤提示
+
+---
+
+## 🏗️ 系統架構與技術概覽
+
+- 使用 **Random Forest Regression** 預測薪資
+- 使用 **Tkinter** 建構桌面互動式介面
+- 使用 **SQLite** 儲存預處理後資料集
+- 評估指標：
+  - **RMSE**（均方根誤差）：2.317
+  - **R² Score**（決定係數）：0.502
+
+---
+
+## 🎯 預期效益與應用情境
+
+- 協助新鮮人了解預期職位薪資，制定合理求職策略
+- 協助轉職者比較職務間薪資差異，作為跳槽依據
+- 提供薪資與加班、工作量、年資間的關聯分析
+- 作為職涯規劃輔助工具，提高就業選擇的信心與準確性
+
+---
+
+📂 GitHub Repository（程式碼與資料集）：  
+[https://github.com/School-Project-YZU/DSS_salary_prediction.git](https://github.com/School-Project-YZU/DSS_salary_prediction.git)
